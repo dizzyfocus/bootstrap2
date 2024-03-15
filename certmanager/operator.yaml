@@ -1,0 +1,6 @@
+apiVersion: operators.coreos.com/v1alpha2
+kind: OperatorGroup
+metadata:
+  name: cert-manager-og
+  namespace: openshift-cert-manager-operator
+spec:
